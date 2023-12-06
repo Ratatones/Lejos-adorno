@@ -1,0 +1,77 @@
+body, ul, li, p {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-size: 1.9rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    height: 92px;
+    margin-left: 30px;
+}
+
+
+.search{
+    width: 43% ;
+    border-radius: 5px;
+    border-style: none;
+    padding: 9px;
+    margin-right: 10px ; 
+    margin-bottom: 14px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+
+.carrinho, .burgue, .corpo {
+    margin-left: 54px;
+    height: 44px;
+    margin: 17px;
+}
+.burgue{
+    margin-top: 27px;
+    height: 29px;
+    margin-left: 28px;
+}
+
+.menul{
+    justify-self: end;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+.section {
+    background: rgb(0,0,0);
+background: linear-gradient(194deg, rgba(0,0,0,1) 0%, rgba(255,218,117,1) 100%);
+}
+
+
+.coisa {
+    width: 100%;
+    margin-top: 56px;
+}
